@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="images/logo11.ico" />
+    <link rel="icon" href="images/icon-vue.ico" />
     <title>Weathe Vue</title>
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -29,13 +29,17 @@
               class="d-flex flex-row"
               style="justify-content: space-between !important"
             >
-              <h5 class="heading">Weather Vue</h5>
-              <small id="date">11:21 - Tuesday, 22 Nov '24</small>
+              <div class="heading1">
+                <h5 class="heading">
+                  <img class="icon" src="images/icon-vuee.jpg" alt="logo" />
+                  Weather Vue
+                </h5>
+              </div>
             </div>
             <div class="text-center">
               <img class="image mt-5" src="images/balloon.png" />
             </div>
-            <div class="row px-3" style="margin-top: 5.5rem">
+            <div class="row px-3" id="content" style="margin-top: 450px">
               <div class="d-flex flex-column mr-3">
                 <h1 class="large-font mr-1 mb-0 reset" id="temp_c"></h1>
                 <p class="small-font mr-1 mb-0 reset" id="feelslike_c"></p>
